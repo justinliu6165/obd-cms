@@ -4,12 +4,12 @@
       "default": {
         "connector": "mongoose",
         "settings": {
-          "uri": "${process.env.MONGODB_URI}"
+          "uri": "${process.env.MONGODB_URI}",
+          "database": "${process.env.DATABASE_NAME}"
         },
         "options": {
           "ssl": true
         }
       }
-    },
-    "database": "obd-db"
+    }
   }
