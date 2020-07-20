@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_profession_scientists",
+  "info": {
+    "name": "scientist",
+    "icon": "biohazard"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "physicist",
+        "chemist",
+        "biologist",
+        "theoretical_physicist"
+      ]
+    },
+    "achievements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "multiples.achievements"
+    }
+  }
+}

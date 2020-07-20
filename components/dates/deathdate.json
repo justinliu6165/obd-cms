@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_dates_deathdates",
+  "info": {
+    "name": "deathdate",
+    "icon": "procedures"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "integer"
+    },
+    "month": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

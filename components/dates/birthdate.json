@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_dates_birthdates",
+  "info": {
+    "name": "birthdate",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "integer"
+    },
+    "month": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

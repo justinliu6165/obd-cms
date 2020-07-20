@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_multiples_achievements",
+  "info": {
+    "name": "achievements",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Achievement": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Year_of_achievement": {
+      "type": "date"
+    }
+  }
+}

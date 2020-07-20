@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "important_figures",
   "info": {
-    "name": "Important Figures"
+    "name": "Historic Figures"
   },
   "options": {
     "increments": true,
@@ -12,9 +12,6 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
     "profile": {
       "model": "file",
       "via": "related",
@@ -23,6 +20,47 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "mother": {
+      "model": "important-figures"
+    },
+    "father": {
+      "model": "important-figures"
+    },
+    "Biography": {
+      "type": "richtext"
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "multiples.links"
+    },
+    "birthdate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dates.birthdate"
+    },
+    "deathdate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dates.deathdate"
+    },
+    "Children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "relationships.children"
+    },
+    "marriages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "relationships.marriages"
+    },
+    "profession": {
+      "type": "dynamiczone",
+      "components": [
+        "profession.monarch",
+        "profession.scientist"
+      ]
     }
   }
 }

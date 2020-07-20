@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_profession_monarches",
+  "info": {
+    "name": "Monarch",
+    "icon": "book-reader"
+  },
+  "options": {},
+  "attributes": {
+    "reign_start_year": {
+      "type": "integer"
+    },
+    "reign_end_year": {
+      "type": "integer"
+    },
+    "reign_start": {
+      "type": "date",
+      "default": "0000-02-01T00:01:15.000Z"
+    },
+    "reign_end": {
+      "type": "date"
+    },
+    "claim": {
+      "type": "richtext"
+    }
+  }
+}

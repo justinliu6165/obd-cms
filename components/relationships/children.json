@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_relationships_children",
+  "info": {
+    "name": "Children",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "children": {
+      "model": "important-figures"
+    }
+  }
+}

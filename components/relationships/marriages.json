@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_relationships_marriages",
+  "info": {
+    "name": "marriages",
+    "icon": "restroom"
+  },
+  "options": {},
+  "attributes": {
+    "marriages": {
+      "model": "important-figures"
+    },
+    "year_married": {
+      "type": "integer"
+    }
+  }
+}

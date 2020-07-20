@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_multiples_links",
+  "info": {
+    "name": "Links",
+    "icon": "code-branch"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
